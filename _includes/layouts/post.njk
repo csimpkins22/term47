@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="post">
+
+	{# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
+	<div class="post-header">
+		<h1>{{ title }}</h1>
+		<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+		<div>
+			{{ category }} | {{ subcategory }}
+		</div>
+	</div>
+	<div class="post-metadata">
+			<div class="metadata-item">
+				{{ description }}
+			</div>
+	</div>
+
+
+	{{ content | safe }}
+
+	{%- if collections.posts %}
+	{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+	{%- set nextPost = collections.posts | getNextCollectionItem %}
+	{%- if nextPost or previousPost %}
+	<ul class="links-nextprev">
+		{%- if previousPost %}<li class="links-nextprev-prev">← Previous<br> <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+		{%- if nextPost %}<li class="links-nextprev-next">Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+	</ul>
+	{%- endif %}
+	{%- endif %}
+
+	<div class="post-metadata">
+			<div class="metadata-item">
+					<strong>Sources:</strong>
+					<ul>
+							{%- for source in sources %}
+							<li><a href="{{ source }}" target="_blank">{{ source }}</a></li>
+							{%- endfor %}
+					</ul>
+			</div>
+			<div class="metadata-item">
+					<strong>Tags:</strong>
+					<ul class="tags-list">
+							{%- for tag in tags %}
+							{%- if tag != "posts" %} {# Skip the 'posts' tag #}
+									<li><a href="/tags/{{ tag | slugify }}" class="tag-link">{{ tag }}</a></li>
+							{%- endif %}
+							{%- endfor %}
+					</ul>
+			</div>
+	</div>
+</div>
