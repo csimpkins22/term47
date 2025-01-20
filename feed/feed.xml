@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <title>Blog Title</title>
-  <subtitle>This is a longer description about your blog.</subtitle>
-  <link href="https://example.com/feed/feed.xml" rel="self" />
-  <link href="https://example.com/" />
+  <title>Term 47</title>
+  <subtitle>Term 47 is a collaborative project dedicated to documenting the key events, decisions, and controversies of the 47th presidency</subtitle>
+  <link href="https://term47.com/feed/feed.xml" rel="self" />
+  <link href="https://term47.com/" />
   <updated>2025-01-19T00:00:00Z</updated>
-  <id>https://example.com/</id>
+  <id>https://term47.com/</id>
   <author>
     <name>Your Name</name>
   </author>
   <entry>
     <title>Trump Takes Credit for Reversing TikTok Ban</title>
-    <link href="https://example.com/blog/2025/1/2025-01-19-tiktok-ban-reversal/" />
+    <link href="https://term47.com/blog/2025/1/2025-01-19-tiktok-ban-reversal/" />
     <updated>2025-01-19T00:00:00Z</updated>
-    <id>https://example.com/blog/2025/1/2025-01-19-tiktok-ban-reversal/</id>
+    <id>https://term47.com/blog/2025/1/2025-01-19-tiktok-ban-reversal/</id>
     <content type="html">&lt;p&gt;President-elect Donald Trump has taken credit for restoring TikTok&#39;s operations in the United States after negotiations led to the app&#39;s reinstatement. This comes after his administration had aggressively pushed for a ban on the platform during his previous term, citing national security concerns.&lt;/p&gt;
 &lt;p&gt;The reversal has raised questions about the administration&#39;s motives, with critics accusing Trump of attempting to spin the narrative for political gain. Supporters, however, argue that the outcome showcases his ability to negotiate deals.&lt;/p&gt;
 &lt;h2 id=&quot;timeline-of-events&quot;&gt;Timeline of Events&lt;/h2&gt;
@@ -33,9 +33,9 @@
   </entry>
   <entry>
     <title>Melania Trump Launches Cryptocurrency $MELANIA</title>
-    <link href="https://example.com/blog/2025/1/2025-01-19-melani-trump-cryptocurrency-launch/" />
+    <link href="https://term47.com/blog/2025/1/2025-01-19-melani-trump-cryptocurrency-launch/" />
     <updated>2025-01-19T00:00:00Z</updated>
-    <id>https://example.com/blog/2025/1/2025-01-19-melani-trump-cryptocurrency-launch/</id>
+    <id>https://term47.com/blog/2025/1/2025-01-19-melani-trump-cryptocurrency-launch/</id>
     <content type="html">&lt;p&gt;First Lady Melania Trump announced the launch of $MELANIA, a cryptocurrency marketed as a digital collectible. Managed through a private entity, the coin quickly achieved a market capitalization of over $8.5 billion. The timing of the launch, just days after President-elect Donald Trump&#39;s $TRUMP coin, sparked significant market interest and discussions about potential conflicts of interest.&lt;/p&gt;
 &lt;p&gt;Critics argue that the First Lady’s financial involvement in the cryptocurrency raises ethical concerns, particularly about the influence of public figures on speculative markets. Questions have also emerged about whether such ventures may impact policy decisions during the administration.&lt;/p&gt;
 &lt;p&gt;Supporters, on the other hand, view $MELANIA as an innovative way to engage with the public and promote digital collectibles.&lt;/p&gt;
@@ -49,9 +49,9 @@
   </entry>
   <entry>
     <title>Trump Launches Cryptocurrency $Trump</title>
-    <link href="https://example.com/blog/2025/1/2025-01-17-trump-cryptocurrency-launch/" />
+    <link href="https://term47.com/blog/2025/1/2025-01-17-trump-cryptocurrency-launch/" />
     <updated>2025-01-17T00:00:00Z</updated>
-    <id>https://example.com/blog/2025/1/2025-01-17-trump-cryptocurrency-launch/</id>
+    <id>https://term47.com/blog/2025/1/2025-01-17-trump-cryptocurrency-launch/</id>
     <content type="html">&lt;p&gt;President-elect Donald Trump announced the launch of $Trump, a cryptocurrency managed through his company, CIC Digital LLC, which retained 80% of the coin&#39;s supply. Within two days of its introduction, the coin’s valuation soared, raising significant concerns among ethics experts and watchdogs.&lt;/p&gt;
 &lt;p&gt;Critics argue that this move may violate the Constitution’s foreign emoluments clause, as it opens the door for foreign entities to purchase the cryptocurrency and indirectly benefit the President financially.&lt;/p&gt;
 &lt;p&gt;Supporters of the cryptocurrency argue it represents innovation and a new way to engage with supporters, but questions remain about transparency and accountability.&lt;/p&gt;
