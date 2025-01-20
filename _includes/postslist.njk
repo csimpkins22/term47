@@ -51,6 +51,17 @@
     border-radius: 8px 8px 0 0;
     margin-bottom: 10px;
 }
+
+
+		.category-item {
+				padding: 5px 10px;
+				background-color:rgb(150,150,150);
+				color: white;
+				border-radius: 15px;
+				font-size: 0.9rem;
+				text-decoration: none;
+				transition: background-color 0.3s ease;
+		}
 {% endcss %}
 
 <div class="posts-container">
@@ -69,7 +80,7 @@
 
         {# Add category if available #}
         {% if post.data.category %}
-        <p><strong>Category:</strong> {{ post.data.category }}</p>
+        <span class="category-item">{{ post.data.category }}</span>
         {% endif %}
     </article>
     {%- endfor %}

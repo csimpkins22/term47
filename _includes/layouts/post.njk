@@ -34,20 +34,18 @@ layout: layouts/base.njk
 
 	<div class="post-metadata">
 			<div class="metadata-item">
+					<strong>Tags:</strong>
+							{%- for tag in tags %}
+							{%- if tag != "posts" %} {# Skip the 'posts' tag #}
+									<a href="/tags/{{ tag | slugify }}" class="tag-link">{{ tag }}</a>
+							{%- endif %}
+							{%- endfor %}
+			</div>
+			<div class="metadata-item">
 					<strong>Sources:</strong>
 					<ul>
 							{%- for source in sources %}
 							<li><a href="{{ source }}" target="_blank">{{ source }}</a></li>
-							{%- endfor %}
-					</ul>
-			</div>
-			<div class="metadata-item">
-					<strong>Tags:</strong>
-					<ul class="tags-list">
-							{%- for tag in tags %}
-							{%- if tag != "posts" %} {# Skip the 'posts' tag #}
-									<li><a href="/tags/{{ tag | slugify }}" class="tag-link">{{ tag }}</a></li>
-							{%- endif %}
 							{%- endfor %}
 					</ul>
 			</div>

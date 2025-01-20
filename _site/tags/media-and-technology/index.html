@@ -59,6 +59,17 @@
     border-radius: 8px 8px 0 0;
     margin-bottom: 10px;
 }
+
+
+		.category-item {
+				padding: 5px 10px;
+				background-color:rgb(150,150,150);
+				color: white;
+				border-radius: 15px;
+				font-size: 0.9rem;
+				text-decoration: none;
+				transition: background-color 0.3s ease;
+		}
 /* General Styles */
 
 			body {
@@ -226,7 +237,7 @@
 
 		.metadata-item {
 				flex: 1 1 100%; /* Each metadata item takes full width initially */
-				margin-bottom: 10px;
+
 		}
 
 		.metadata-item strong {
@@ -236,15 +247,6 @@
 
 		.metadata-item ul {
 				padding-left: 20px;
-				margin: 0;
-		}
-
-		.tags-list {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 5px;
-				list-style: none;
-				padding: 0;
 				margin: 0;
 		}
 
@@ -262,7 +264,6 @@
 				background-color: #0056b3;
 				text-decoration: none;
 		}
-
 
 			footer {
 				background-color: #222;
@@ -325,7 +326,7 @@
 
         
         
-        <p><strong>Category:</strong> Policy Decisions</p>
+        <span class="category-item">Policy Decisions</span>
         
     </article>
 </div>
@@ -340,7 +341,7 @@
 		</main>
 
 		<footer>
-			<p>2025</p>
+			<p>© 2025 | Term 47 </p>
 		</footer>
 	</body>
 </html>
