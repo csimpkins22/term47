@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Blog Title</title>
+  <subtitle>This is a longer description about your blog.</subtitle>
+  <link href="https://example.com/eleventy-base-blog/feed/feed.xml" rel="self" />
+  <link href="https://example.com/eleventy-base-blog/" />
+  <updated>2025-01-19T00:00:00Z</updated>
+  <id>https://example.com/eleventy-base-blog/</id>
+  <author>
+    <name>Your Name</name>
+  </author>
+  <entry>
+    <title>Trump Takes Credit for Reversing TikTok Ban</title>
+    <link href="https://example.com/eleventy-base-blog/blog/2025/1/2025-01-19-tiktok-ban-reversal/" />
+    <updated>2025-01-19T00:00:00Z</updated>
+    <id>https://example.com/eleventy-base-blog/blog/2025/1/2025-01-19-tiktok-ban-reversal/</id>
+    <content type="html">&lt;p&gt;President-elect Donald Trump has taken credit for restoring TikTok&#39;s operations in the United States after negotiations led to the app&#39;s reinstatement. This comes after his administration had aggressively pushed for a ban on the platform during his previous term, citing national security concerns.&lt;/p&gt;
+&lt;p&gt;The reversal has raised questions about the administration&#39;s motives, with critics accusing Trump of attempting to spin the narrative for political gain. Supporters, however, argue that the outcome showcases his ability to negotiate deals.&lt;/p&gt;
+&lt;h2 id=&quot;timeline-of-events&quot;&gt;Timeline of Events&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Initial Ban Proposal (2020):&lt;/strong&gt; The Trump administration initially moved to ban TikTok, citing concerns about data privacy and national security.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Negotiations with ByteDance:&lt;/strong&gt; Talks between TikTok&#39;s parent company and the U.S. government led to delays in the ban.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reversal Announcement (2025):&lt;/strong&gt; Trump publicly took credit for lifting the ban, claiming it as a win for free expression and international business relations.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;key-points&quot;&gt;Key Points:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Critics view the reversal as an attempt to rewrite history.&lt;/li&gt;
+&lt;li&gt;Supporters argue it highlights Trump&#39;s strategic deal-making.&lt;/li&gt;
+&lt;li&gt;Raises questions about how policies are being framed for political gain.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Melania Trump Launches Cryptocurrency $MELANIA</title>
+    <link href="https://example.com/eleventy-base-blog/blog/2025/1/2025-01-19-melani-trump-cryptocurrency-launch/" />
+    <updated>2025-01-19T00:00:00Z</updated>
+    <id>https://example.com/eleventy-base-blog/blog/2025/1/2025-01-19-melani-trump-cryptocurrency-launch/</id>
+    <content type="html">&lt;p&gt;First Lady Melania Trump announced the launch of $MELANIA, a cryptocurrency marketed as a digital collectible. Managed through a private entity, the coin quickly achieved a market capitalization of over $8.5 billion. The timing of the launch, just days after President-elect Donald Trump&#39;s $TRUMP coin, sparked significant market interest and discussions about potential conflicts of interest.&lt;/p&gt;
+&lt;p&gt;Critics argue that the First Lady’s financial involvement in the cryptocurrency raises ethical concerns, particularly about the influence of public figures on speculative markets. Questions have also emerged about whether such ventures may impact policy decisions during the administration.&lt;/p&gt;
+&lt;p&gt;Supporters, on the other hand, view $MELANIA as an innovative way to engage with the public and promote digital collectibles.&lt;/p&gt;
+&lt;h2 id=&quot;key-points&quot;&gt;Key Points:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Market Impact:&lt;/strong&gt; $MELANIA’s market capitalization surged past $8.5 billion shortly after its launch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ethical Concerns:&lt;/strong&gt; Critics cite potential conflicts of interest and the First Lady&#39;s financial involvement in a speculative market.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public Engagement:&lt;/strong&gt; The coin is positioned as a digital collectible aimed at connecting with supporters in a novel way.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Trump Launches Cryptocurrency $Trump</title>
+    <link href="https://example.com/eleventy-base-blog/blog/2025/1/2025-01-17-trump-cryptocurrency-launch/" />
+    <updated>2025-01-17T00:00:00Z</updated>
+    <id>https://example.com/eleventy-base-blog/blog/2025/1/2025-01-17-trump-cryptocurrency-launch/</id>
+    <content type="html">&lt;p&gt;President-elect Donald Trump announced the launch of $Trump, a cryptocurrency managed through his company, CIC Digital LLC, which retained 80% of the coin&#39;s supply. Within two days of its introduction, the coin’s valuation soared, raising significant concerns among ethics experts and watchdogs.&lt;/p&gt;
+&lt;p&gt;Critics argue that this move may violate the Constitution’s foreign emoluments clause, as it opens the door for foreign entities to purchase the cryptocurrency and indirectly benefit the President financially.&lt;/p&gt;
+&lt;p&gt;Supporters of the cryptocurrency argue it represents innovation and a new way to engage with supporters, but questions remain about transparency and accountability.&lt;/p&gt;
+&lt;h2 id=&quot;ethical-implications&quot;&gt;Ethical Implications&lt;/h2&gt;
+&lt;p&gt;The launch of $Trump highlights potential conflicts of interest, as Trump’s financial stake in the cryptocurrency could directly influence policy decisions. The move has sparked bipartisan scrutiny, with lawmakers questioning the propriety of a sitting President engaging in such ventures.&lt;/p&gt;
+&lt;h3 id=&quot;key-points&quot;&gt;Key Points:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;80% Ownership&lt;/strong&gt;: CIC Digital LLC owns the majority of $Trump coins.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market Impact&lt;/strong&gt;: The coin’s valuation skyrocketed shortly after launch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ethics Concerns&lt;/strong&gt;: Critics cite potential emoluments clause violations.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+</feed>
