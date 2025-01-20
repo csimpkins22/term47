@@ -8,8 +8,6 @@ tags:
   - business-ventures
 sources:
   - https://www.bbc.com/news/articles/c98y47vrv2jo
-category: Conflicts of Interest
-subcategory: Business Ventures
 ---
 First Lady Melania Trump announced the launch of $MELANIA, a cryptocurrency marketed as a digital collectible. Managed through a private entity, the coin quickly achieved a market capitalization of over $8.5 billion. The timing of the launch, just days after President-elect Donald Trump's $TRUMP coin, sparked significant market interest and discussions about potential conflicts of interest.
 

@@ -9,8 +9,6 @@ tags:
 sources:
   - https://en.wikipedia.org/wiki/%24Trump
   - https://www.cnn.com/2025/01/17/business/trump-cryptocurrency-launch/index.html
-category: Conflicts of Interest
-subcategory: Business Ventures
 ---
 President-elect Donald Trump announced the launch of $Trump, a cryptocurrency managed through his company, CIC Digital LLC, which retained 80% of the coin's supply. Within two days of its introduction, the coin’s valuation soared, raising significant concerns among ethics experts and watchdogs.
 

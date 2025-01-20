@@ -8,8 +8,6 @@ tags:
   - political-strategy
 sources:
   - https://apnews.com/article/trump-tiktok-ban-da11df6d59c17e2c17eea40c4042386d
-category: Policy Decisions
-subcategory: Media and Technology Policies
 ---
 
 President-elect Donald Trump has taken credit for restoring TikTok's operations in the United States after negotiations led to the app's reinstatement. This comes after his administration had aggressively pushed for a ban on the platform during his previous term, citing national security concerns.

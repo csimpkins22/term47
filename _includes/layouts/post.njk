@@ -8,9 +8,6 @@ layout: layouts/base.njk
 	<div class="post-header">
 		<h1>{{ title }}</h1>
 		<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-		<div>
-			{{ category }} | {{ subcategory }}
-		</div>
 	</div>
 	<div class="post-metadata">
 			<div class="metadata-item">
@@ -20,17 +17,6 @@ layout: layouts/base.njk
 
 
 	{{ content | safe }}
-
-	{%- if collections.posts %}
-	{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-	{%- set nextPost = collections.posts | getNextCollectionItem %}
-	{%- if nextPost or previousPost %}
-	<ul class="links-nextprev">
-		{%- if previousPost %}<li class="links-nextprev-prev">← Previous<br> <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-		{%- if nextPost %}<li class="links-nextprev-next">Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-	</ul>
-	{%- endif %}
-	{%- endif %}
 
 	<div class="post-metadata">
 			<div class="metadata-item">
@@ -50,4 +36,16 @@ layout: layouts/base.njk
 					</ul>
 			</div>
 	</div>
+
+	{%- if collections.posts %}
+	{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+	{%- set nextPost = collections.posts | getNextCollectionItem %}
+	{%- if nextPost or previousPost %}
+	<ul class="links-nextprev">
+		{%- if previousPost %}<li class="links-nextprev-prev">Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+		{%- if nextPost %}<li class="links-nextprev-next">Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+	</ul>
+	{%- endif %}
+	{%- endif %}
+
 </div>
