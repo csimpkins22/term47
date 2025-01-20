@@ -36,6 +36,7 @@
 	},
 	"dependencies": {
 		"@zachleat/heading-anchors": "^1.0.1",
+		"netlify": "^13.3.2",
 		"prismjs": "^1.29.0"
 	}
 }
