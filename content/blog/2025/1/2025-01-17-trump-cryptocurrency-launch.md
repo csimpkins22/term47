@@ -1,5 +1,5 @@
 ---
-title: Trump Launches Cryptocurrency $Trump
+title: Donald Trump Launches Cryptocurrency $Trump
 description: On January 17, 2025, President-elect Trump introduced a cryptocurrency, $Trump, sparking ethical concerns about financial gains during his presidency.
 date: 2025-01-17
 tags:
