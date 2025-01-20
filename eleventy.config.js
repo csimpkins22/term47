@@ -64,12 +64,10 @@ export default async function(eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
-			author: {
-				name: "Your Name"
-			}
+			title: "Term 47",
+			subtitle: "Term 47 is a collaborative project dedicated to documenting the key events, decisions, and controversies of the 47th presidency",
+			base: "https://term47.com/",
+
 		}
 	});
 

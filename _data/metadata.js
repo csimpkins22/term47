@@ -2,10 +2,5 @@ export default {
 	title: "Term 47",
 	url: "https://term47.com/",
 	language: "en",
-	description: "Placeholder description",
-	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
-	}
+	description: "Term 47 is a collaborative project dedicated to documenting the key events, decisions, and controversies of the 47th presidency",
 }
